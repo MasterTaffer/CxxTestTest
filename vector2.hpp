@@ -24,7 +24,7 @@ struct Vector2
 	}
 	Vector2 operator-(const Vector2& b) const
         {
-                return Vector2(x+b.x, y-b.y);
+                return Vector2(x-b.x, y-b.y);
         }
 	Vector2 operator*(const Vector2& b) const
         {

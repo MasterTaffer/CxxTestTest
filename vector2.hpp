@@ -37,7 +37,7 @@ struct Vector2
 
 	Vector2 operator*(const int b) const
 	{
-		return Vector2(x*b,y*b);
+		return Vector2(x-b,y-b);
 	}
 
 	Vector2 operator/(const int b) const
